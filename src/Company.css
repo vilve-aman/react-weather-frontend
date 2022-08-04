@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.suggestions-list {
+    width: 80%;
+}
+
+.search{
+    background-color: rgba(85, 44, 173, 1);
+    /* border-radius: 1rem; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+
+}
+
+.inp{
+    width:90%;
+    color:whitesmoke;
+    margin: 0.5rem ;
+    margin-right: 0;
+    border-radius: 0;
+}
+
+.btnsvg{
+
+    width: 80%;
+    margin: 0.5rem;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+.lis{
+    color: whitesmoke;
+    margin: 0.1rem;
+    background: linear-gradient(297.79deg, rgba(95, 47, 194, 0.2) 59.08%, rgba(95, 47, 194, 0) 99.34%), linear-gradient(62.74deg, rgba(80, 80, 80, 0.2) 31.33%, rgba(255, 255, 255, 0.126) 100%), #1B0F3A;
+}

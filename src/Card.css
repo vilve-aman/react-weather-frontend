@@ -1,0 +1,36 @@
+.outer{
+    display: flex;
+    align-items : center;
+    background: linear-gradient(63.16deg, rgba(0, 0, 0, 0.48) 42.05%, rgba(0, 0, 0, 0) 100.03%), radial-gradient(85.24% 168.57% at 85% 20.61%, rgba(251, 251, 252, 0.2) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #8B82AB;
+    background: linear-gradient(243.18deg, rgba(40, 21, 85, 0.3648) 19.35%, rgba(0, 0, 0, 0) 100%), radial-gradient(107.26% 212.1% at 0% 100%, rgba(251, 251, 252, 0.2) 45.83%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(13, 8, 30, 0.9);
+    height: 4.5rem;
+    width: 8.89rem;
+    margin: 0.1rem;
+}
+
+.inner{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    width: 70%;
+    /* justify-content: space-around; */
+}
+
+.csvg{
+    width: 2.5rem;
+    height: 2.5rem;
+    /* max-width: 30%; */
+    /* padding: 0.1; */
+    margin: 0 0.1rem 0 0.5rem;
+    color: whitesmoke;
+}
+.card-text{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    color: white;
+}
+
+.val{
+    font-size: 1rem;
+    color: whitesmoke;
+}
